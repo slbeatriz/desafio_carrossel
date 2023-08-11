@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Carrossel</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/carrossel.js" defer></script>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="fade">
+                <div class="n_text">1 / 3</div>
+                <img src="img/9ac65ed5-65de-4461-9fd7-0fd986f26401.jpg">
+                <div class="i_text">CRIS & GREG</div>
+            </div>
+            
+            <div class="fade">
+                <div class="n_text">2 / 3</div>
+                <img src="img/a2b12ed9-b206-44b4-aba5-0e550e804202.jpg">
+                <div class="i_text">MEMENTO MORI CACHORRINHO</div>
+            </div>
+            
+            <div class="fade">
+                <div class="n_text">3 / 3</div>
+                <img src="img/FS6laj7XoAISIcO.jpg">
+                <div class="i_text">TÉCNICO TI</div>
+            </div>
+
+            <a class="prev" onclick="plus_slides(-1)"> &#10094; </a>
+            <a class="next" onclick="plus_slides(1)"> &#10095; </a>
+        </div>
+
+        <div class="dot_box">
+            <span class="dot" onclick="current_slides(1)"></span>
+            <span class="dot" onclick="current_slides(2)"></span>
+            <span class="dot" onclick="current_slides(3)"></span>
+        </div>
+
+    </body>
+
+</html>
